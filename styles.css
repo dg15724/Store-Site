@@ -1,0 +1,93 @@
+/*
+
+    selector {
+
+        property: value;
+        property: value;
+        property: value;
+        ect....
+    }
+
+    Writing selectors:
+
+    tagname -> selects all tags of a given type
+    .classname -> selects all members of a given class
+    tagname.classname -> selects only tags that are also members of given class
+
+    > -> child symbol
+
+
+    tagname>tagname
+    tagname>.classname
+    .classname>.classmate
+    .classname>tagname
+*/
+
+.nav {
+    list-style: none;
+ 
+     border-style: ridge;
+ 
+     padding-left: 0%;
+ 
+     width: 50%;
+ 
+     margin: auto;
+ }
+ 
+ .nav>li{
+ 
+     border-style: ridge;
+ 
+     background: cornflowerblue;
+ 
+     border-radius: 10px;
+  
+     display: inline-block;
+ }
+ 
+ 
+ .nav>li>a {
+ 
+     text-decoration: none;
+     color:white;
+ 
+ }
+ 
+ 
+ 
+ img {
+ 
+     display: block;
+     width: 300px;
+     height: auto;
+     margin: auto;
+     border-radius: 10px;
+     align-content: center;
+    
+ 
+ }
+ 
+ body {
+ 
+     
+    
+     background-repeat: no-repeat;
+     background-size: cover;
+    background-position: 50% 25%;
+    
+    background-color:black;
+ }
+ 
+ h1{
+ 
+     text-decoration:gray;
+     color:gray;
+ }
+ 
+ h2{
+ 
+     text-decoration: gray;
+     color:gray;
+ 
+ }
